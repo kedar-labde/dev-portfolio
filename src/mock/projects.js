@@ -81,7 +81,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FLUTTER],
   },
   {
-    imgSrc: 'https://drive.google.com/file/d/1Fj0QrT9s5FdEkyYUFO8pSMH_AP_U0CRK/view?usp=sharing',
+    imgSrc: '../assets/images/logo.png',
     title: 'Developer Portfolio',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
