@@ -68,7 +68,7 @@ export const PROJECTS = [
   },
 
   {
-    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
+    imgSrc: 'https://activecollab.com/upload/blog/551/cover.png',
     title: 'Onourem Website',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'Flutter'),
@@ -81,7 +81,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FLUTTER],
   },
   {
-    imgSrc: '../assets/images/logo.png',
+    imgSrc: 'https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png',
     title: 'Developer Portfolio',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
