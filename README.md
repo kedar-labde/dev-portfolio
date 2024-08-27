@@ -84,28 +84,28 @@ PUBLIC_KEY= "YOUR PUBLIC KEY"
 
 ```javascript
 export const SOCIAL_LINKS = [
+  // {
+  //   link: 'https://twitter.com/dhavalCode',         // <--- Social handle Link
+  //   icon: 'akar-icons:twitter-fill',          // <--- Iconify Icon name
+  // },
   {
-    link: 'https://twitter.com/dhavalCode',         // <--- Social handle Link
-    icon: 'akar-icons:twitter-fill',          // <--- Iconify Icon name
-  },
-  {
-    link: 'https://github.com/dhavalcode',
+    link: 'https://github.com/kedar-labde',
     icon: 'akar-icons:github-fill',
   },
   {
-    link: 'https://linkedin.com/in/dhavalcode',
+    link: 'https://www.linkedin.com/in/kedar-labde-64931ab4/',
     icon: 'akar-icons:linkedin-fill',
   },
 ];
 
-export const HERO_TITLES = ['Dhaval Patel', 'Full-stack Developer', 'Javascript Enthusiast'];
+export const HERO_TITLES = ['Kedar labde', 'Android Developer', 'Kotlin Enthusiast'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Developer with experience in designing, developing and maintaining web applications using technologies such as JavaScript, React, Node.js. ';
+  'Highly motivated and enthusiastic Android Developer with experience in designing, developing and maintaining android applications using technologies such as Kotlin, Java. ';
 
-export const contactEmail = 'works.dhaval@gmail.com';
+export const contactEmail = 'me.kedarlabde@gmail.com';
 
-export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Developer | Javascript Enthusiast'
+export const documentTitle = 'Hello I am Kedar | Android Developer | Kotlin Enthusiast'
 
 
 ```
@@ -138,7 +138,7 @@ export const documentTitle = 'Hello I am Dhaval Patel | Full Stack Developer | J
 
 
 ## Deploy on Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FdhavalCode%2Fdev-portfolio%2F)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%kedar-labde%2Fdev-portfolio%2F)
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
@@ -146,14 +146,12 @@ Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 
 
 ## For the Future
-If you want to add more, Please don't hesitate to open a [pull request](https://github.com/dhavalCode/dev-portfolio/pulls).
+If you want to add more, Please don't hesitate to open a [pull request](https://github.com/kedar-labde/dev-portfolio/pulls).
 
 
 ##  👋 Get in Touch
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/dhavalcode?style=social)](https://twitter.com/dhavalCode)
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhavalcode) 
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kedar-labde-64931ab4/) 
 
 
 

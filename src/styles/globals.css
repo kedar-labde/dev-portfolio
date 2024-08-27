@@ -158,3 +158,12 @@ html {
     opacity: 1;
   }
 }
+/* Custom styles for multi-line truncation */
+.truncate-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 9; /* Number of lines to show */
+  line-clamp: 10; /* For future support */
+}

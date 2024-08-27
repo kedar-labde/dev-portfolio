@@ -2,8 +2,11 @@ import { BACKEND_SKILLS, FRONTEND_SKILLS } from './tech-skills';
 
 export const PROJECT_CATEGORY = {
   ALL: 'all',
-  FULL_STACK: 'full-stack',
-  OPEN_SOURCE: 'open-source',
+  FLUTTER: 'flutter',
+  KOTLIN: 'kotlin',
+  JAVA: 'java',
+  OPEN_SOURCE :  'open-source',
+
 };
 
 export const TABS = [
@@ -13,14 +16,19 @@ export const TABS = [
     icon: 'fluent:tab-desktop-20-regular',
   },
   {
-    label: 'Full Stack',
-    value: PROJECT_CATEGORY.FULL_STACK,
-    icon: 'bx:code-block',
+    label: 'Flutter',
+    value: PROJECT_CATEGORY.FLUTTER,
+    icon: 'logos:flutter',
   },
   {
-    label: 'Open Source',
-    value: PROJECT_CATEGORY.OPEN_SOURCE,
-    icon: 'fluent-mdl2:open-source',
+    label: 'Kotlin',
+    value: PROJECT_CATEGORY.KOTLIN,
+    icon: 'logos:java',
+  },
+  {
+    label: 'Java',
+    value: PROJECT_CATEGORY.JAVA,
+    icon: 'logos:java',
   },
 ];
 
@@ -28,22 +36,49 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: 'https://images2.imgbox.com/79/5f/S3hu6kJs_o.jpg',
-    title: 'Flipkart Clone - E-Commerce Project',
+    imgSrc: 'https://play-lh.googleusercontent.com/oupWqHkiistJghhxEcb4NqPdeIMa611i5--FIkIIKOempVe2lwNfSC5HP_ehdIKyufU=w2560-h1440-rw',
+    title: 'Onourem: 10-Minute Wellness',
     techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Material UI (mui)'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Redux'),
-      getSkillByLabel(BACKEND_SKILLS, 'Node.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'Mongodb'),
+      
+      getSkillByLabel(FRONTEND_SKILLS, 'Kotlin'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Android'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Retrofit'),
+      getSkillByLabel(FRONTEND_SKILLS, 'JetPack'),
     ],
     description:
-      'Flipkart Clone is done with top-notch features for the entrepreneur startups like Flipkart. It is build with React Js, Node Js.',
-    repoLink: 'https://github.com/dhavalCode/flipkart-clone',
-    sourceLink: 'https://flipkart-web.vercel.app/',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
+      'Onourem revolutionizes the approach to emotional wellbeing, embracing the social media generations desire for connection and meaningful interactions. This groundbreaking app seamlessly integrates scientifically proven mental wellness activities with healthy social engagement, making emotional growth an enjoyable and rewarding experience.',
+    repoLink: '',
+    sourceLink: 'https://play.google.com/store/apps/details?id=com.onourem.android.activity&hl=en_IN',
+    category: [PROJECT_CATEGORY.KOTLIN],
+  },
+  
+  {
+    imgSrc: 'https://play-lh.googleusercontent.com/uXKXEi6S1eJDf8eMG2R8ZmDv2Dj9Tre421p2I8qmE83B97Wz3x9cTJ8oBdbLJ-lY3g=w2560-h1440-rw',
+    title: 'Wealthify – Financial Planner',
+    techIcons: [
+      getSkillByLabel(FRONTEND_SKILLS, 'Android'),
+      getSkillByLabel(FRONTEND_SKILLS, 'Java'),
+      getSkillByLabel(BACKEND_SKILLS, 'MySQL'),
+    ],
+    description:
+      'This application helps you to achieve your future dreams, to plan your retirement as well as ensure financial protection of your family! 1. Life-Time Goal Management –You will be able to evaluate whether your current assets are sufficient to meet your future goals. In case your assets are not sufficient; the planner suggests the additional monthly savings amount required to meet your goal. It also helps to calculate the Protection cover required to ensure financial stability of your loved ones. \n2. Retirement Planning –You will be able to calculate monthly savings required to maintain your lifestyle post your retirement.',
+    repoLink: '',
+    sourceLink: 'https://play.google.com/store/apps/details?id=com.ifl.wealthify&hl=en_IN',
+    category: [PROJECT_CATEGORY.JAVA],
+  },
+
+  {
+    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
+    title: 'Onourem Website',
+    techIcons: [
+      getSkillByLabel(FRONTEND_SKILLS, 'Flutter'),
+      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
+      getSkillByLabel(BACKEND_SKILLS, 'Firebase'),
+    ],
+    description: 'Unlock the power of Onourem mobile app alongside your closest companions. Immerse yourself in an array of emotional wellness exercises perfectly suited to your unique personality. From Mood Tracking and Watch List to engaging Q/A Games, Journaling, Gratitude & Kindness Practice, Deeper Sharing, and curated content, there is something to ignite your inner spark.\nPrefer a touch of inspiration? Let Onourem be your trusted guide, sending you daily notifications with carefully curated activities. Just dedicate 10-15 minutes each day and watch your well-being soar. Join us on this transformative journey and embrace a life of greater balance and fulfillment!',
+    repoLink: '',
+    sourceLink: 'https://www.onourem.com/',
+    category: [PROJECT_CATEGORY.FLUTTER],
   },
   {
     imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
@@ -55,44 +90,9 @@ export const PROJECTS = [
       getSkillByLabel(FRONTEND_SKILLS, 'Next.js'),
     ],
     description:
-      'Simple and classic modern portfolio for who wants to present himself as a software developer. Portfolio build with highly customizable using Tailwind CSS, Next Js.',
-    repoLink: 'https://github.com/dhavalCode/dev-portfolio',
+      'Welcome to my modern portfolio, crafted to showcase my expertise as a software developer. Built with Next.js and Tailwind CSS, this portfolio combines functionality with aesthetics. Tailwind CSS ensures a highly customizable and responsive design, while Next.js provides a robust and efficient framework for seamless performance. Explore my projects, skills, and achievements through a clean and intuitive interface. Whether you are interested in my latest work or looking to connect, this portfolio reflects my commitment to excellence and innovation in software development.',
+    repoLink: 'https://github.com/kedar-labde/dev-portfolio',
     sourceLink: 'https://dhavalcode.com/',
-    category: [PROJECT_CATEGORY.OPEN_SOURCE],
-  },
-  {
-    imgSrc: 'https://images2.imgbox.com/dd/a3/Fcx8cjEr_o.jpg',
-    title: 'Kitchen Store  - E-Commerce',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),
-      getSkillByLabel(FRONTEND_SKILLS, 'Bootstrap'),
-      {
-        label: 'Java',
-        icon: 'logos:java',
-      },
-      getSkillByLabel(BACKEND_SKILLS, 'MySQL'),
-    ],
-    description:
-      'The e-commerce to buy kitchen related items. College final year project base on Servlets and JSP (Java)',
-    repoLink: 'https://github.com/dhavalcode/ecommerce-java-project',
-    sourceLink: '',
-    category: [PROJECT_CATEGORY.FULL_STACK, PROJECT_CATEGORY.OPEN_SOURCE],
-  },
-
-  {
-    imgSrc: 'https://images2.imgbox.com/9d/d0/zdDVFtFN_o.png',
-    title: 'Netflix Clone - TMDB API Project',
-    techIcons: [
-      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
-      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
-      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
-      getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
-    ],
-    description: 'Netflix clone using react Js. Proving movies details using TMDB API.',
-    repoLink: 'https://github.com/dhavalcode/netflix-clone',
-    sourceLink: 'https://netflix-clone-by-dhaval.web.app/',
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
 ];

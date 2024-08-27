@@ -1,32 +1,20 @@
 export const FRONTEND_SKILLS = [
   {
-    label: 'HTML',
-    proficiency: '80%',
-    icon: 'vscode-icons:file-type-html',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'CSS',
-    proficiency: '80%',
-    icon: 'vscode-icons:file-type-css',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Javascript',
+    label: 'Android',
     proficiency: '90%',
-    icon: 'logos:javascript',
-    iconClasses: 'text-2xl',
+    icon: 'logos:android',
+    iconClasses: 'text-xl',
   },
   {
-    label: 'Typescript',
-    proficiency: '80%',
-    icon: 'logos:typescript-icon',
-    iconClasses: 'text-2xl',
+    label: 'Kotlin',
+    proficiency: '90%',
+    icon: 'logos:kotlin',
+    iconClasses: 'text-xl',
   },
   {
-    label: 'React.js',
-    proficiency: '80%',
-    icon: 'vscode-icons:file-type-reactjs',
+    label: 'Java',
+    proficiency: '90%',
+    icon: 'logos:java',
     iconClasses: 'text-2xl',
   },
   {
@@ -34,18 +22,6 @@ export const FRONTEND_SKILLS = [
     proficiency: '90%',
     icon: 'cib:next-js',
     iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Gatsby',
-    proficiency: '90%',
-    icon: 'logos:gatsby',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Material UI (mui)',
-    proficiency: '90%',
-    icon: 'logos:material-ui',
-    iconClasses: 'text-2xl',
   },
   {
     label: 'Tailwind CSS',
@@ -60,47 +36,38 @@ export const FRONTEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'Bootstrap',
+    "label": "Retrofit",
+    "proficiency": "90%",
+    "icon": "simple-icons:http",
+    "iconClasses": "text-2xl"
+  },
+  {
+    label: 'JetPack Compose',
     proficiency: '90%',
-    icon: 'logos:bootstrap',
+    icon: 'logos:android',
+    iconClasses: 'text-xl',
+  },
+
+  {
+    label: 'Flutter',
+    proficiency: '90%',
+    icon: 'logos:flutter',
     iconClasses: 'text-2xl',
   },
+
   {
-    label: 'Styled Components',
-    proficiency: '90%',
-    icon: 'simple-icons:styled-components',
-    iconClasses: 'text-4xl',
-  },
-  {
-    label: 'Redux',
-    proficiency: '90%',
-    icon: 'logos:redux',
+    label: 'HTML',
+    proficiency: '80%',
+    icon: 'vscode-icons:file-type-html',
     iconClasses: 'text-3xl',
   },
   {
-    label: 'React Router',
-    proficiency: '90%',
-    icon: 'logos:react-router',
-    iconClasses: 'text-xl',
-  },
-  {
-    label: 'React Query',
-    proficiency: '90%',
-    icon: 'logos:react-query-icon',
+    label: 'CSS',
+    proficiency: '80%',
+    icon: 'vscode-icons:file-type-css',
     iconClasses: 'text-3xl',
   },
-  {
-    label: 'React Hook Form',
-    proficiency: '90%',
-    icon: 'fluent:form-20-regular',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Lodash',
-    proficiency: '90%',
-    icon: 'logos:lodash',
-    iconClasses: 'text-xl',
-  },
+  
 ];
 
 export const BACKEND_SKILLS = [
@@ -111,52 +78,23 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-3xl',
   },
   {
-    label: 'Express (Node.js Framework)',
-    proficiency: '90%',
-    icon: 'simple-icons:express',
+    label: 'Java Spring Boot',
+    proficiency: '75%',
+    icon: 'logos:java',
     iconClasses: 'text-3xl',
   },
   {
-    label: 'REST Api',
+    label: 'Firebase',
     proficiency: '90%',
-    icon: 'dashicons:rest-api',
+    icon: 'simple-icons:firebase',
     iconClasses: 'text-3xl',
   },
-  {
-    label: 'Graphql',
-    proficiency: '90%',
-    icon: 'logos:graphql',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Prisma',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-light-prisma',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Sequelize',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-sequelize',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'PostgreSQL',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-pgsql',
-    iconClasses: 'text-3xl',
-  },
+
   {
     label: 'MySQL',
     proficiency: '90%',
     icon: 'logos:mysql',
     iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Mongodb',
-    proficiency: '90%',
-    icon: 'vscode-icons:file-type-mongo',
-    iconClasses: 'text-3xl',
   },
   {
     label: 'AWS',
@@ -177,18 +115,6 @@ export const BACKEND_SKILLS = [
     iconClasses: 'text-2xl',
   },
   {
-    label: 'Docker',
-    proficiency: '80%',
-    icon: 'logos:docker-icon',
-    iconClasses: 'text-2xl',
-  },
-  {
-    label: 'Heroku',
-    proficiency: '80%',
-    icon: 'logos:heroku-icon',
-    iconClasses: 'text-2xl',
-  },
-  {
     label: 'Vercel',
     proficiency: '80%',
     icon: 'logos:vercel-icon',
@@ -197,13 +123,12 @@ export const BACKEND_SKILLS = [
 ];
 
 export const FRONTEND_DESCRIPTIONS = [
-  'Building complex, interactive user interfaces using React js.',
-  'Building Large scale Web applications using state management library such as redux.',
-  'Building responsive Web Applications.',
+  'Building complex, interactive user interfaces using JetPack Compose, XML Based UI.',
+  'Building Large scale Android applications using Kotlin and Java with MVVM Architecture.',
+  'Building responsive Web Applications using Flutter.',
 ];
 
 export const BACKEND_DESCRIPTIONS = [
-  'Building RESTful APIs and GraphQL APIs.',
-  'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
-  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'Building RESTful APIs using Java Spring Boot.',
+  'Good understanding of database design in technologies such as Firebase and MySQL.',
 ];

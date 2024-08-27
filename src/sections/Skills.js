@@ -18,7 +18,7 @@ export default function Skills() {
       <section className="container mx-auto mt-16 text-center sm:mt-10">
         <HeadingAnimate>
           <h2 className="mb-5 font-lato text-3xl font-semibold text-primary-700 dark:text-primary-300 sm:text-4xl">
-            What i do
+            What I do
           </h2>
         </HeadingAnimate>
 

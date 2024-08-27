@@ -10,14 +10,26 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
       <img className="h-[150px] w-full rounded-t-lg object-cover" src={imgSrc} alt={title} />
 
       <div className="p-5">
-        <h1 className="mb-2 text-lg font-semibold  text-gray-900 dark:text-white">{title}</h1>
-        <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400">{description}</p>
+        <h1 className="mb-2 text-lg font-semibold text-gray-900 dark:text-white">{title}</h1>
+        <p className="mb-3 text-sm font-normal text-gray-700 dark:text-gray-400 truncate-description">
+          {description}
+        </p>
 
         {techIcons && techIcons.length > 0 && (
           <div className="mt-5 mb-7 flex flex-wrap gap-5">
-            {techIcons.map(({ icon }, i) => (
-              <Iconify key={`icon-${i}`} classes="text-2xl opacity-80" icon={icon} />
-            ))}
+            {techIcons.map((techIcon, i) => {
+              if (techIcon && techIcon.label) {
+                return (
+                  <div
+                    key={`icon-${i}`}
+                    className="flex h-10 w-24 items-center justify-center rounded-lg bg-primary-400 shadow-md shadow-neutral-300 dark:shadow-neutral-700"
+                  >
+                    <span className="text-sm font-medium text-neutral-50">{techIcon.label}</span>
+                  </div>
+                );
+              }
+              return null; // Skip if the techIcon is undefined or has no label
+            })}
           </div>
         )}
       </div>

@@ -34,7 +34,9 @@ export default function HomeHero() {
           }}
           viewport={{ once: true }}
         >
-          <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" />
+          {/* <Image src={mainImg} className="w-52 object-contain lg:w-64" alt="Logo" /> */}
+          <Image src={mainImg} className="w-52 lg:w-64 object-contain rounded-full" alt="Logo" />
+
         </motion.div>
         <h1 className="z-50 font-lato text-2xl font-bold sm:text-4xl md:font-semibold">
           Hi, Im{' '}
