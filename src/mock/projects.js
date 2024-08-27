@@ -81,7 +81,7 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.FLUTTER],
   },
   {
-    imgSrc: 'https://images2.imgbox.com/b5/bb/6f5g9QBE_o.png',
+    imgSrc: 'https://drive.google.com/file/d/1Fj0QrT9s5FdEkyYUFO8pSMH_AP_U0CRK/view?usp=sharing',
     title: 'Developer Portfolio',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
@@ -92,7 +92,7 @@ export const PROJECTS = [
     description:
       'Welcome to my modern portfolio, crafted to showcase my expertise as a software developer. Built with Next.js and Tailwind CSS, this portfolio combines functionality with aesthetics. Tailwind CSS ensures a highly customizable and responsive design, while Next.js provides a robust and efficient framework for seamless performance. Explore my projects, skills, and achievements through a clean and intuitive interface. Whether you are interested in my latest work or looking to connect, this portfolio reflects my commitment to excellence and innovation in software development.',
     repoLink: 'https://github.com/kedar-labde/dev-portfolio',
-    sourceLink: 'https://dhavalcode.com/',
+    sourceLink: 'https://dev-portfolio-iota-jet.vercel.app/',
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
 ];
